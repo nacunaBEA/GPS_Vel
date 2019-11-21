@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Velocidad</string>
+    <string name="text"> Please move</string>
+    <string name="start">Start sensing velocity</string>
+    <string name="stop">STOP</string>
+
+</resources>
