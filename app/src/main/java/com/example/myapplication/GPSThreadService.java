@@ -17,6 +17,7 @@ public class GPSThreadService extends Service {
     private double ALon = 0;
     private double c = 0;
 
+
     public GPSThreadService() {
     }
 
@@ -44,7 +45,11 @@ public class GPSThreadService extends Service {
                 c = 2 * Math.asin(Math.sqrt(1));
 
             }
-            D = r * c * 1000;
+            if((r * c * 1000)/3600>0) {
+                D = r * c * 1000;
+            }
+            else
+                D=0;
             longitudeBack =longitude;
             latitudeBack = latitude;
 

@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
 import android.location.Criteria;
+import android.location.GpsStatus;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -27,6 +28,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 
+import java.lang.reflect.Method;
+
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 
 public class MainActivity extends AppCompatActivity {
@@ -41,23 +44,19 @@ public class MainActivity extends AppCompatActivity {
     private double longitude= 0 ;
     private double latitude = 0 ;
     private TelephonyManager mTelephonyManager = null;
-    private PhoneStateListener phoneStateListener = null;
-
-
-
-
     private LocationManager locationManager;
     private LocationListener locationListener;
 
-
-
-
-//    private GPSBackgroundThread gpsBackgroundThread;
     private TextView tv_velocity;
     private Button bt_start;
+    private TextView tv_DOP;
     private boolean gpsRutineFlag = false;
     private  Handler mhandler = new Handler();
+    private double PDOP;
+    private double HDOP;
+    private double VDOP;
 
+    String vel ;
     IGPSInterface mService;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv_velocity = findViewById(R.id.tv_velocity);
         bt_start  =findViewById(R.id.bt_start);
-
+        tv_DOP  = findViewById(R.id.tv_DOP);
 
         locationListener = new BEALocationListener();
             permissions();
@@ -135,6 +134,34 @@ public class MainActivity extends AppCompatActivity {
     public void StartGPSServiceRutine(View view) {
 
 
+        Method addNmeaListener = null;
+        try {
+            addNmeaListener = LocationManager.class.getMethod("addNmeaListener", GpsStatus.NmeaListener.class);
+            addNmeaListener.invoke(locationManager, new GpsStatus.NmeaListener() {
+                public void onNmeaReceived(long timestamp, String nmea)
+                {
+                    double velocity  =0 ;
+                    if (nmea != null && nmea.length() > 0)
+                        nmea = nmea.replaceAll("\\*..$", "");
+
+                    String[] nmeaSplit = nmea.split(",");
+
+                    if(nmea.indexOf("$GPRMC")>0 ||nmeaSplit[2].compareTo("A")==0){
+                        velocity=Double.parseDouble(nmeaSplit[7])*1.852;
+                    }
+
+                    if (nmea.indexOf("GNGSA") > 0) {
+                        PDOP=Double.parseDouble(nmeaSplit[nmeaSplit.length-3]);
+                        HDOP=Double.parseDouble(nmeaSplit[nmeaSplit.length-2]);
+                        VDOP=Double.parseDouble(nmeaSplit[nmeaSplit.length-1]);
+                    }
+                    Log.d(TAG,velocity + "");
+
+                }});
+        } catch (Exception  e) {
+            e.printStackTrace();
+        }
+
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -145,14 +172,14 @@ public class MainActivity extends AppCompatActivity {
                         tv_velocity.post(new Runnable() {
                             @Override
                             public void run() {
-                                double distance =0;
+                                double GPS_Values = 0 ;
                                 try {
-                                     distance = mService.onGetVelocity(latitude, longitude);
+                                     GPS_Values = mService.onGetVelocity(latitude, longitude);
                                 } catch (RemoteException e) {
                                     e.printStackTrace();
                                 }
 
-                                tv_velocity.setText("Segundo -> " + ++count + "\tvelocidad -> " + String.valueOf(distance));
+                                tv_velocity.setText("Segundo -> " + ++count + "\tvelocidad -> " + String.valueOf(GPS_Values));
                             }
                         });
                         try {
@@ -186,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public class BEALocationListener implements LocationListener{
+    public class BEALocationListener  implements LocationListener{
 
 
 
@@ -196,7 +223,21 @@ public class MainActivity extends AppCompatActivity {
             latitude = Math.toRadians(location.getLatitude());
             longitude = Math.toRadians(location.getLongitude());
             Toast.makeText(getApplicationContext(),"Location changed", Toast.LENGTH_LONG).show();
-//            mCallback.onSetCoordinates(latitude,longitude);
+            if (location.getSpeed()>0) {
+                vel = String.valueOf(((location.getSpeed() * 1000) / 3600));
+            }
+            else
+            {
+                vel = "0";
+            }
+            tv_DOP.setText(vel);
+            tv_DOP.post(new Runnable() {
+                @Override
+                public void run() {
+                    tv_DOP.setText(vel);
+                }
+            });
+
 
         }
 
