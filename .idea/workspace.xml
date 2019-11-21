@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcfc6cb4-2c10-4bed-b6e7-c8f98815041b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CanTest_DEMO_ANDROID/app/libs/spi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanTest_DEMO_ANDROID/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanTest_DEMO_ANDROID/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CanTest_DEMO_ANDROID/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GPS_Position/GPS_Position/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GPS_Position/GPS_Position/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GPS_Position/GPS_Position/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GPS_Position/GPS_Position/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GPS_Position/GPS_Position/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/libs/spi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/aidl/com/example/service2/IPermissionController.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/aidl/com/example/service2/ISpiService.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/BEABar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/FrontBEABar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/GPIOPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/SerialPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/gpioPorts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/AsyncResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/AsyncTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/BadParcelableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/BatteryManagerInternal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/BatteryProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/BatteryProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Binder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/BinderProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Broadcaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Build.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Bundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/CancellationSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/CommonClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/CommonTimeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/CommonTimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ConditionVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/CountDownTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/DeadObjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/DisplayOutputManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/DropBoxManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/FileBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/FileObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/HandlerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IBatteryPropertiesListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IBatteryPropertiesRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IBinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ICancellationSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IDeviceIdleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IDisplayDeviceManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IMessenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/INetworkActivityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/INetworkManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IPermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IPowerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IProcessInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IRemoteCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ISchedulingPolicyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ISpiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IUpdateLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IUserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/IVibratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Looper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/MemoryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/NetworkOnMainThreadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/NullVibrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/OperationCanceledException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Parcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ParcelFileDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ParcelFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ParcelUuid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Parcelable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ParcelableParcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/PatternMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/PerformanceCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/PersistableBundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/PooledStringReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/PooledStringWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/PowerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/PowerManagerInternal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/RecoverySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Registrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/RegistrantList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/RemoteCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/RemoteCallbackList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/RemoteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/RemoteMailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ResultReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/SELinux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ServiceManagerNative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ServiceManagerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/StatFs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/StrictMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/SystemClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/SystemProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/SystemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/SystemVibrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/TokenWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Trace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/TransactionTooLargeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/UEventObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/UpdateLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/UserHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/Vibrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/WorkSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/ZygoteStartFailedEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/DiskInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/IMountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/IMountServiceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/IMountShutdownObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/IObbActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/MountServiceInternal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/MountServiceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/OnObbStateChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/StorageEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/StorageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/StorageResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/StorageVolume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/VolumeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/os/storage/VolumeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/runThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/java/com/example/service2/utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/AsyncResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/AsyncTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/BadParcelableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/BaseBundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/BatteryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/BatteryManagerInternal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/BatteryProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/BatteryProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/BatteryStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Binder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/BinderProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Broadcaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Build.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Bundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/CancellationSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/CommonClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/CommonTimeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/CommonTimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ConditionVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/CountDownTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/DeadObjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/DisplayOutputManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/DropBoxManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/FileBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/FileObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/HandlerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IBatteryPropertiesListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IBatteryPropertiesRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IBinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ICancellationSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IDeviceIdleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IDisplayDeviceManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IMessenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/INetworkActivityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/INetworkManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IPermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IPowerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IProcessInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IRemoteCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ISchedulingPolicyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ISpiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IUpdateLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IUserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/IVibratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Looper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/MemoryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/NetworkOnMainThreadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/NullVibrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/OperationCanceledException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Parcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ParcelFileDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ParcelFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ParcelUuid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Parcelable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ParcelableParcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/PatternMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/PerformanceCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/PersistableBundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/PooledStringReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/PooledStringWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/PowerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/PowerManagerInternal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/RecoverySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Registrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/RegistrantList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/RemoteCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/RemoteCallbackList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/RemoteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/RemoteMailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ResultReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/SELinux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ServiceManagerNative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ServiceManagerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/StatFs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/StrictMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/SystemClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/SystemProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/SystemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/SystemVibrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/TokenWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Trace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/TransactionTooLargeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/UEventObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/UpdateLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/UserHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/Vibrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/WorkSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/ZygoteStartFailedEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/DiskInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/IMountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/IMountServiceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/IMountShutdownObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/IObbActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/MountServiceInternal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/MountServiceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/OnObbStateChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/StorageEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/StorageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/StorageResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/StorageVolume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/VolumeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Service2/app/src/main/os/storage/VolumeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/app/src/androidTest/java/com/example/services/MainActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/app/src/main/aidl/com/example/services/IAddService.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/app/src/main/java/com/example/services/AdditionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Velocidad/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Velocidad/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="149" column="3" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/telephony/TelephonyManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4780">
+              <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/os/Looper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/app/Activity.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/app/Instrumentation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2540">
+              <caret line="207" column="5" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/os/Message.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/view/View.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6200">
+              <caret line="398" column="19" selection-start-line="398" selection-start-column="19" selection-end-line="398" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/GPSThreadService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="940">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>longitude</find>
+      <find>lat1</find>
+      <find>call</find>
+      <find>GPSThreadService</find>
+      <find>mCallback</find>
+      <find>mService</find>
+      <find>mConnection</find>
+      <find>handler</find>
+      <find>IGPSInterface</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/BEALocationListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/GPSBackgroundThread.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/com/example/myapplication/IGPSInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/aidl/com/example/myapplication/IGPSInterface.aidl" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/GPSThreadService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1374" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+              <item name="MainActivity" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="My Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="My Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="My Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="myapplication" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Application" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="myapplication" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="MainActivity" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="0123456789ABCDEF" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-11-20T21:54:33.752Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/X7R/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.myapplication" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nacuna.IDEAR\Desktop\MyApplication\app\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcfc6cb4-2c10-4bed-b6e7-c8f98815041b" name="Default Changelist" comment="" />
+      <created>1574210773336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574210773336</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1374" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32980332" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32993197" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32993197" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32993197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32993197" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32993197" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32993197" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/GPSThreadService.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/GPSThreadService.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/location/LocationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/BEALocationListener.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/myapplication/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/myapplication/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <folding>
+            <element signature="e#875#893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/content/ComponentName.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/location/LocationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/aidl/com/example/myapplication/IGPSInterface.aidl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/GPSBackgroundThread.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2697">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/java/lang/Runnable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/app/AppCompatViewInflater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="404" selection-start-line="404" selection-end-line="404" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/com/example/myapplication/IGPSInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+          <folding>
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#3260#3261#0" expanded="true" />
+            <element signature="e#3294#3295#0" expanded="true" />
+            <element signature="e#3355#3356#0" expanded="true" />
+            <element signature="e#3387#3388#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3485#3486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="149" column="3" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/telephony/TelephonyManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4780">
+          <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/app/Instrumentation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2540">
+          <caret line="207" column="5" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/os/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/X7R/Sdk/platforms/android-29/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6200">
+          <caret line="398" column="19" selection-start-line="398" selection-start-column="19" selection-end-line="398" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/GPSThreadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

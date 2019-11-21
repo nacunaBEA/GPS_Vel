@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                                 } catch (RemoteException e) {
                                     e.printStackTrace();
                                 }
-//hola
+
                                 tv_velocity.setText("Segundo -> " + ++count + "\tvelocidad -> " + String.valueOf(distance));
                             }
                         });
